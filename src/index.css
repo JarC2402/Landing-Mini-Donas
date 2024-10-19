@@ -1,0 +1,717 @@
+:root {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.5;
+  
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   
+}
+ul {
+  list-style-type: none; /* Elimina las viñetas predeterminadas */
+  padding-left: 0; /* Asegura que no haya espacio antes de los elementos */
+}
+
+.timeScore{
+  color: #a989e8;
+  font-size: 32px;
+  font-weight: bold; /* Negrita */
+}
+
+.tittleWhite{
+  font-size: 32px;
+  font-weight: bold; /* Negrita */
+  color: white;
+}
+
+.tittleRed{
+  color: #a989e8;
+  font-size: 32px;
+  font-weight: bold; /* Negrita */
+}
+
+.tittleRed2{
+  color: #D3AFAF;
+  font-size: 32px;
+  font-weight: bold; /* Negrita */
+}
+
+.subTitleRed{
+  color:  #a989e8;
+  font-size: 26px;
+  text-align: center;
+  font-weight: bold; /* Negrita */
+  line-height: 20px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.tittlePink{
+  color: #682219;    
+  font-size: 24px;
+  font-weight: bold; /* Negrita */
+  text-align: center;
+  line-height: 20px;
+}
+
+.text1 {
+  color: #a989e8;
+  font-size: 18px;
+}
+/* ---------------------------------------------------------------------------------------- Nav */
+nav {
+  background-color: #f281c6; /* Color de fondo azul */
+  text-align: center; /* Centrar el texto */
+  padding: 10px 0; /* Espaciado arriba y abajo */  
+  height: auto;
+  overflow: hidden; /* Oculta el contenido que se desborde */
+}
+
+/* ---------------------------------------------------------------------------------------- Header*/
+.headerContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  background-image: url('./assets/backGround1a.png'); /* Ruta a la imagen */
+  background-size: cover;  /*Hace que la imagen cubra todo el fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.headerContainer2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  background-color: white;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.headerCard{  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  height: auto;
+  overflow: hidden; /* Oculta el contenido que se desborde */
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.headerCard img {
+  width:500px;
+}
+
+.headerCard2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: auto;
+  overflow: hidden; /* Oculta el contenido que se desborde */  
+  margin-bottom: 20px; 
+}
+.headerCard2 img {
+  width:450px;
+  height: 350px;
+}
+.headerCard1{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.headerCard1 ul{
+  color: #D3AFAF;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+li {
+  line-height: 35px; /* Define un interlineado fijo */
+}
+/* ---------------------------------------------------------------------------------------- Pensum*/
+
+.pensumSection{
+  background-color: black;  
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  background-image: url('./assets/backGround3.jpeg'); /* Ruta a la imagen */
+  background-size: cover; /* Hace que la imagen cubra todo el fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.pensumCardContainer{
+  display: flex;
+  justify-content: space-around; 
+  width: 75%;
+  margin-top: 30px;
+}
+
+.cardPensum{
+  display: flex;
+  flex-direction: column; 
+  width: 40%;
+  
+}
+.despleCard {
+  display: flex;
+  justify-content: space-between; /* Distribuye el espacio equitativamente entre los elementos */  
+  border-bottom: 0.5px solid #007aff;
+  width: 100%;
+  padding: 10px  0;
+   text-align: start;
+}
+
+.despleList{
+  text-align: start;
+  height: auto;
+  overflow: hidden;
+  transition: height s ease-in-out;
+  width: 100%;
+}
+
+.despleList ul li{
+  background-color: white;
+  color: #f281c6 ;
+  line-height: 13px;  
+  padding: 10px; 
+}
+
+button {
+  color: #a989e8;
+  background-color: white;
+  box-shadow: none;
+  margin-right: 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  padding: 5px 0;
+  text-align: start; 
+}
+
+.despleCardQ{
+  background-color: white;
+  margin-top: 15px;
+  color:  #682219 ;
+  font-weight: bold;
+  text-align: start;
+}
+
+.despleCardContents {
+  max-height: 0; /* Inicialmente cerrado */
+  overflow: hidden;
+  transition: max-height 1s ease; /* Efecto de transición lenta */
+}
+
+.despleCardContents.show {
+  max-height: 500px; /* Ajusta el valor según lo necesario */
+  transition: max-height 1s ease; /* Efecto de transición lento */
+}
+
+.bonoContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%; 
+  margin: 60px;
+}
+
+.bonoContainer img {
+  width: 500px;
+  margin: 30px;
+}
+
+.bonoCard{
+  width: 55%;
+  margin: 20px;
+}
+/* ---------------------------------------------------------------------------------------- Recipe Section --------------*/
+.recipexCardContent{
+  background-color: white;
+
+}
+
+.recipexContent{
+  background-color: white;
+  text-align: center;
+  color: #242424;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.recipexCardContent{
+  display: flex;
+  justify-content: center;
+}
+
+.recipexCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  margin: 20px;
+}
+
+.recipexCard img{  
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+.titleContent{
+  width: 65%;
+  margin: 30px;
+}
+
+/* ---------------------------------------------------------------------------------------- Invest Section --------------*/
+
+.investContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('./assets/backGround5.jpeg'); /* Ruta a la imagen */
+  background-size: cover; /* Hace que la imagen cubra todo el fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.investCart{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.investCart .tittleWhite{
+  margin-bottom: 0px;
+}
+
+.investCart img {
+  width: 600px;
+}
+/* ----------------------------------------------------------------------------------------Price Section --------------*/
+
+.packContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.packCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 65%;
+}
+
+.packCard img{
+  width: 600px;
+}
+/* ----------------------------------------------------------------------------------------Price Section --------------*/
+.priceSection{
+  display: flex;
+  justify-content: center; 
+}
+
+.priceSectionAll{
+background-image: url('./assets/backGround3.jpeg'); /* Ruta a la imagen */
+background-size: cover; /* Hace que la imagen cubra todo el fondo */
+background-position: center; /* Centra la imagen */
+background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+.imgSection{
+  display: flex;
+  justify-content: center;  
+}
+
+.priceContent, .imgContent{
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+.priceCard, .timeCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 45%;
+  margin: 30px 15px;
+}
+
+.imgCard{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 30px 15px; 
+}
+
+.imgCard img{
+  width: 100px; 
+  margin-bottom: 10px;
+}
+
+.timeCard img{
+  width: 216px;
+  height: 66px;
+}
+
+.bigRed{
+  font-size: 60px;
+  color: rgb(117, 27, 27);
+  font-weight: 900;
+}
+
+.priceButton{
+  background-color: rgb(117, 27, 27);
+  font-size: 28px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 5px;
+  color: white;
+}
+/* ----------------------------------------------------------------------------------------Question Section --------------*/
+
+.QuestionSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url('./assets/backGround5.jpeg'); /* Ruta a la imagen */
+  background-size: cover; /* Hace que la imagen cubra todo el fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.perfilSection{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  margin-top: 20px; 
+}
+.perfilCard{
+  width: 40%;
+}
+.perfilSection img{
+  width: 200px;
+  height: 300px;
+  margin-top: 60px;
+  margin-right: 30px;
+}
+
+.cardQuestion{
+  background-color: white;
+  width: 40%;
+  color: #242424;
+  text-align: start;
+  margin: 30px;
+}
+
+.textQ{
+  background-color: white;
+  color: #f281c6;
+}
+/* ----------------------------------------------------------------------------------------Version Section --------------*/
+
+.versionSection{
+  display: flex;
+  justify-content: center;
+}
+.versionContent{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 30px;
+}
+
+.versionContent  img{
+  width: 550px;
+  height: 450px;
+  margin-top: 40px;
+}
+
+.priceContentV{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.priceCardV, .timeCardV{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+}
+
+.timeCardV img{
+  width: 216px;
+  height: 66px;  
+}
+/* ----------------------------------------------------------------------------------------Version Section --------------*/
+
+.warrantySection, .footerSection{
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.warrantyCard, .footerCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 30px;
+}
+
+.imgGarantia img{
+  width: 150px;
+  height: 200px;
+}
+
+.imgPack img{
+  width: 600px;
+  height: 250px;
+}
+/* ----------------------------------------------------------------------------------------Carousel Section --------------*/
+
+.carouselSection{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ background-color: #242424;
+ padding: 30px;
+}
+
+.carouselSection img{
+  width: 500px;
+}
+
+.carouselContent{
+  width: 500px;
+  margin: 40px;
+}
+
+.prueba {
+  display: flex;
+  justify-content: center;
+  background-color: #a989e8;
+}
+/* Media Query para pantallas pequeñas ------ Media Query para pantallas pequeñas ----- Media Query para pantallas pequeñas ---- Media Query para pantallas pequeñas */  
+@media (max-width: 600px) {
+
+  .headerContainer{  
+    background-image: url('./assets/backGround1a.jpeg'); /* Ruta a la imagen */ 
+  }
+  .headerCard{    
+    margin-bottom: 60px;
+  }
+  
+  .headerCard img {
+    width:380px;
+  }
+
+  .tittleWhite{
+    font-size: 28px;
+  }
+  
+  .tittleRed{
+    font-size: 28px;   
+  }
+  
+  .tittleRed2{    
+    font-size: 24px;
+  }
+  
+  .subTitleRed{
+    font-size: 22px;    
+  }
+  /* ---------------------------------------------------------------------------------------- Header*/
+  .headerCard{      
+    width: 90%;   
+  }
+  .headerCard2{      
+    text-align: center;  
+  }
+  
+  .headerCard1{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+  }
+
+  .headerCard1 ul{   
+    font-size: 14px;
+    margin-left: 0px;
+    overflow: hidden;
+  }
+  
+  li {
+    line-height: 45px; /* Define un interlineado fijo */
+  }
+/* ---------------------------------------------------------------------------------------- Pensum--------------*/
+  .pensumCardContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%; 
+  }
+
+  .cardPensum{
+    width: 80%;
+    margin-bottom: 30px;
+  }
+
+  .tittleWhite{
+    text-align: center;
+  }
+  /* ---------------------------------------------------------------------------------------- Bono Section --------------*/
+  .bonoContainer img{   
+    width: 400px;   
+  }
+
+  .bonoCard{
+    width: 90%;
+  }
+
+  /* ---------------------------------------------------------------------------------------- Recipe --------------*/
+
+  .titleContent{
+    width: 90%;
+    margin: 30px;
+  }
+
+  .recipexCardContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .recipexCard{
+    width: 90%;
+  }
+
+/* ---------------------------------------------------------------------------------------- Invest Section --------------*/
+
+.investCart{
+  width: 90%; 
+}
+
+.investCart img {
+  width: 400px;
+}
+/* ----------------------------------------------------------------------------------------Price Section --------------*/
+
+.packCard{
+  width: 90%;
+}
+
+.packCard img{
+  width: 400px;
+}
+
+/* ----------------------------------------------------------------------------------------Price Section --------------*/
+.priceSection{
+  display: flex;
+  justify-content: center;
+}
+
+.priceContent, .imgContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.priceCard, .timeCard, .imgCard{
+  width: 90%;
+}
+
+/* ---------------------------------------------------------------------------------------- Question Section --------------*/
+.perfilSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+.perfilCard{
+  width: 100%;
+}
+
+.perfilSection img{
+  width:200px;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+
+/* ----------------------------------------------------------------------------------------Version Section --------------*/
+
+.versionContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+.versionContent  img{
+  width: 370px;
+  height: 350px;
+}
+
+.timeCardV img{
+  width: 216px;
+  height: 66px;  
+}
+
+
+.warrantyCard, .footerCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  margin: 30px;
+}
+
+.imgGarantia img{
+  width: 150px;
+  height: 200px;
+}
+
+.imgPack img{
+  width: 300px;
+  height: 125px;
+  margin-top: 15px;
+}
+
+/* ----------------------------------------------------------------------------------------Carousel Section --------------*/
+.carouselContent{
+  width: 100%;
+  padding-left: 25px;
+}
+
+.carouselSection img{
+  width: 400px;  
+}
+
+}
+
