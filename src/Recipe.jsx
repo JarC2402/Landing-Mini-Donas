@@ -7,7 +7,7 @@ const Recipe = () => {
   return (
     <>
     <div className='recipexContent'>
-        <div className='titleContent'><span className='subTitleRed'>Y para empezar desde ya tu emprendimiento, hemos incluido tres fabulosos recetarios, todos ellos originales de la autora Lucy Robles, que te encantaran.</span></div>
+        <div className='titleContent'><span className='tittleRed'>Y para empezar desde ya tu emprendimiento, hemos incluido tres fabulosos recetarios, todos ellos originales de la autora Lucy Robles, que te encantaran.</span></div>
         <div className='recipexCardContent'>            
                 <div className='recipexCard'>
                     <img src={recipe1} alt="recipe1" />

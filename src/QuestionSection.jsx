@@ -27,10 +27,10 @@ const QuestionSection = () => {
         <span className='tittleWhite'>Preguntale a la experta:</span>
         <div className='perfilSection'>
             <div className='perfilCard'>
-                <span className='text1'>Tu compra incluye asesoria de forma rapida y personalizada. Podras preguntarle todas tus dudas a la propia autora.</span><br/>
-                <span className='text1'>Este E-book ha sido escrito con la guia experta de Lucy Robles, una reconocida coach gastronomica con mas de 25 años de experiencia, integrante del equipo de Neopostres.</span><br/>
-                <span className='text1'>Su gran pasion por la resposteria la ha llevado a la docencia y a la creacion de recetas deliciosas y sorpredentes. Y ha ayudado a muchas emprendedoras como tu, a iniciar desde cero su propio negocio en casa.</span><br/>
-                <span className='text1'>Asi que preparate para convertir tus cocina en un negocio exitoso de la mano de una experta.</span>
+                <span className='text3'>Tu compra incluye asesoria de forma rapida y personalizada. Podras preguntarle todas tus dudas a la propia autora.</span><br/>
+                <span className='text3'>Este E-book ha sido escrito con la guia experta de Lucy Robles, una reconocida coach gastronomica con mas de 25 años de experiencia, integrante del equipo de Neopostres.</span><br/>
+                <span className='text3'>Su gran pasion por la resposteria la ha llevado a la docencia y a la creacion de recetas deliciosas y sorpredentes. Y ha ayudado a muchas emprendedoras como tu, a iniciar desde cero su propio negocio en casa.</span><br/>
+                <span className='text3'>Asi que preparate para convertir tus cocina en un negocio exitoso de la mano de una experta.</span>
             </div>
             <img src={NancyRobles} alt="NancyRobles" />
         </div>

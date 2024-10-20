@@ -6,7 +6,7 @@ const SubHeader = () => {
     <div className='headerContainer2'>
         <div className='headerCard2'>
             <span className='tittleRed'>! Imagina tener tu propio negocio sin salir de casa ¡</span>
-            <span className='tittleRed2'>solo necesitas ingredientes de tu cocina....</span>
+            <span className='tittleRed'>solo necesitas ingredientes de tu cocina....</span>
             <div className='headerCard1'>
                 <img src={imgHeader2} alt="imgHeader" />
                 <div>

@@ -46,7 +46,7 @@ export const PensumSection = () => {
     const handleShow13 = () => {setIsShow13(!isShow13)}
   return (
     <div className='pensumSection'>
-        <span className='tittleWhite'>Descubre el paso a paso para crear tu negocio de Mini Donas...</span>
+        <span className='bigTitleRed'>Descubre el paso a paso para crear tu negocio de Mini Donas...</span>
         <div className='pensumCardContainer'>
             <div className='cardPensum'>
                 <span className='tittlePink'>Primera parte:</span>

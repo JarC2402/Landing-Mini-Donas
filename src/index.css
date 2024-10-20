@@ -19,7 +19,7 @@ ul {
 }
 
 .timeScore{
-  color: #a989e8;
+  color: #f281c6;
   font-size: 32px;
   font-weight: bold; /* Negrita */
 }
@@ -37,13 +37,13 @@ ul {
 }
 
 .tittleRed2{
-  color: #D3AFAF;
+  color: #998484;
   font-size: 32px;
   font-weight: bold; /* Negrita */
 }
 
 .subTitleRed{
-  color:  #a989e8;
+  color:   #f281c6;
   font-size: 26px;
   text-align: center;
   font-weight: bold; /* Negrita */
@@ -60,9 +60,42 @@ ul {
   line-height: 20px;
 }
 
+.tittleWhite1{
+  color: #f281c6;    
+  font-size: 24px;
+  font-weight: bold; /* Negrita */
+  text-align: center;
+  line-height: 20px;
+}
+
+.bigTitleRed{
+  color: #682219;  
+  font-size: 34px;
+  font-weight: bold; /* Negrita */
+}
+
 .text1 {
   color: #a989e8;
   font-size: 18px;
+  font-weight: bold; /* Negrita */
+}
+
+.text2{
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold; /* Negrita */
+}
+
+.text3{
+  color: #682219;
+  font-size: 18px;
+  font-weight: bold; /* Negrita */
+}
+
+.bigWhite{
+  color: #f281c6;;
+  font-size: 58px;
+  font-weight: bold; /* Negrita */
 }
 /* ---------------------------------------------------------------------------------------- Nav */
 nav {
@@ -79,7 +112,7 @@ nav {
   flex-direction: column;
   align-items: center;
   padding: 0px;
-  background-image: url('./assets/backGround1a.png'); /* Ruta a la imagen */
+  background-image: url('./assets/fonPag1.jpeg'); /* Ruta a la imagen */
   background-size: cover;  /*Hace que la imagen cubra todo el fondo */
   background-position: center; /* Centra la imagen */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -148,6 +181,7 @@ li {
   background-size: cover; /* Hace que la imagen cubra todo el fondo */
   background-position: center; /* Centra la imagen */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
+  padding: 30px;
 }
 
 .pensumCardContainer{
@@ -332,7 +366,8 @@ ul li {
 }
 
 .priceSectionAll{
-background-image: url('./assets/backGround3.jpeg'); /* Ruta a la imagen */
+/* background-image: url('./assets/backGround3.jpeg'); Ruta a la imagen */
+background-color: white;
 background-size: cover; /* Hace que la imagen cubra todo el fondo */
 background-position: center; /* Centra la imagen */
 background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -382,7 +417,7 @@ background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
 
 .priceButton{
-  background-color: rgb(117, 27, 27);
+  background-color: #f281c6;
   font-size: 28px;
   font-weight: bold;
   border-radius: 20px;
@@ -396,10 +431,11 @@ background-repeat: no-repeat; /* Evita que la imagen se repita */
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-image: url('./assets/backGround5.jpeg'); /* Ruta a la imagen */
+  background-image: url('./assets/fondoPerfil.jpeg'); /* Ruta a la imagen */
   background-size: cover; /* Hace que la imagen cubra todo el fondo */
   background-position: center; /* Centra la imagen */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
+  padding: 30px;
 }
 
 .perfilSection{
@@ -428,13 +464,18 @@ background-repeat: no-repeat; /* Evita que la imagen se repita */
 
 .textQ{
   background-color: white;
-  color: #f281c6;
+  color: #a989e8;
+  font-weight: bold;
 }
 /* ----------------------------------------------------------------------------------------Version Section --------------*/
 
 .versionSection{
   display: flex;
   justify-content: center;
+  background-image: url('./assets/fondoVersion.jpeg'); /* Ruta a la imagen */
+  background-size: cover; /* Hace que la imagen cubra todo el fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
 .versionContent{
   display: flex;

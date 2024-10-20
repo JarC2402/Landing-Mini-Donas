@@ -31,7 +31,7 @@ const formatTime = (time) => {
     <div className='priceSectionAll'>
     <div className='packContent'>
         <div className='packCard'>
-            <span className='tittleWhite'>!Accede a esta gran cantidad de informacion al instante¡</span>
+            <span className='tittleRed'>!Accede a esta gran cantidad de informacion al instante¡</span>
             <span className='tittleRed'> Podras descargarlo en tu celular y tenerlo a la mano siempre que lo necesites...</span>
             <img src={pack} alt="packimg"/>
             <span className='text1'> Si todo el extenso contenido se hubiera elaborado en formato de video, el costo seria considerablemente mas alto debido  a la produccion 
@@ -42,15 +42,14 @@ const formatTime = (time) => {
     <div className='priceSection'>
         <div className='priceContent'>
             <div className='priceCard'>
-                <span className='tittleWhite'>¡Hoy precio especial...!</span>
-                <span className='tittleWhite'><s>$29.99</s></span>
-                <span className='bigRed'>$22.49</span>
+                <span className='tittlePink'>¡ Aprovecha esta oferta por tiempo limitado !</span>
+                <span className='bigWhite'>$29.99</span>
                 <span className='text1'>Clic para ver precio en tu moneda</span>
                 <button className='priceButton'>Si Quiero los E-Books</button>
             </div>
             <div className='timeCard'>
-                <span className='text1'>Adquiere el e-book y los 3 recetarios, mas los 2 bonos de regalo a un super precio, y recibe el contenido de inmediato en tu correo electronico</span><br/>
-                <span className='tittlePink'>LA OFERTA FINALIZA EN</span>
+                <span className='text3'>Adquiere el e-book y los 3 recetarios, mas los 2 bonos de regalo a un super precio, y recibe el contenido de inmediato en tu correo electronico</span><br/>
+                <span className='tittleWhite1'>LA OFERTA FINALIZA EN</span>
                 <div className='timeScore'>{formatTime(timeLeft)}</div>
                 <img  src={'https://emprendeconminidonas2.emprendedesdecasa.info/wp-content/uploads/2023/09/Image-2-1.png'} alt="metodPay"/>                       
             </div>

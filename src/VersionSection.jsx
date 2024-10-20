@@ -33,9 +33,8 @@ const formatTime = (time) => {
           <div className='priceSection'>
               <div className='priceContentV'>
                   <div className='priceCardV'>
-                      <span className='tittleWhite'>¡Hoy precio especial...!</span>
-                      <span className='tittleWhite'><s>$29.99</s></span>
-                      <span className='bigRed'>$22.49</span>
+                  <span className='tittlePink'>¡ Aprovecha esta oferta por tiempo limitado !</span>
+                  <span className='bigWhite'>$29.99</span>
                       <span className='text1'>Clic para ver precio en tu moneda</span>
                       <button className='priceButton'>Si Quiero los E-Books</button>
                   </div>
