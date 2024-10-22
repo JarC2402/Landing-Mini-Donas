@@ -3,7 +3,6 @@ import React, { useState, useEffect } from 'react';
 import book from './assets/book.png'
 import email from './assets/email.png'
 import dowload from './assets/dowload.png'
-import metodPay from './assets/metodPay.jpeg'
 
 const PriceSection = () => {
     const [timeLeft, setTimeLeft] = useState(3 * 60 * 60); // 24 horas en segundos

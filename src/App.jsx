@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Nav } from './Nav'
 import Header from './Header'
 import { PensumSection } from './PensumSection'
-import SubHeader from './subHeader'
+import SubHeader from './SubHeader'
 import Recipe from './Recipe'
 import Investment from './investment'
 import PriceSection from './PriceSection'
@@ -31,7 +31,7 @@ function App() {
     <>
      <Nav/>
      <Header/>
-     <SubHeader/>  
+     <SubHeader />  
      <PensumSection/>
      <Recipe/>
      <Investment/>

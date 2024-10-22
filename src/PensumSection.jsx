@@ -52,7 +52,7 @@ export const PensumSection = () => {
                 <span className='tittlePink'>Primera parte:</span>
                 <span className='tittlePink'>Como elaborar delicionasas donas y mini donas</span>
                 <div className='despleCardQ'>
-                        <button onClick={handleShow}>{isShow? <i class="fa-solid fa-caret-right fa-rotate-270"></i>:<i class="fa-solid fa-caret-right"></i>}</button>   
+                        <button onClick={handleShow}>{isShow? <i className="fa-solid fa-caret-right fa-rotate-270"></i>:<i className="fa-solid fa-caret-right"></i>}</button>   
                         <span>MODULO 1: PRESENTACION Y BIENBENIDA</span>                          
                 </div>
                 <div className={`despleCardContents ${isShow ? 'show' : ''}`}>
@@ -65,7 +65,7 @@ export const PensumSection = () => {
                     </div>
                 </div>
                 <div className='despleCardQ'>
-                        <button onClick={handleShow1}>{isShow1?<i class="fa-solid fa-caret-right fa-rotate-270"></i>:<i class="fa-solid fa-caret-right"></i>}</button>   
+                        <button onClick={handleShow1}>{isShow1?<i className="fa-solid fa-caret-right fa-rotate-270"></i>:<i className="fa-solid fa-caret-right"></i>}</button>   
                         <span>MODULO 2: TIPOS DE DONAS</span>                          
                 </div>
                 <div className={`despleCardContents ${isShow1 ? 'show' : ''}`}>
@@ -79,7 +79,7 @@ export const PensumSection = () => {
                     </div>
                 </div> 
                 <div className='despleCardQ'>
-                        <button onClick={handleShow2}>{isShow2?<i class="fa-solid fa-caret-right fa-rotate-270"></i>:<i class="fa-solid fa-caret-right"></i>}</button>   
+                        <button onClick={handleShow2}>{isShow2?<i className="fa-solid fa-caret-right fa-rotate-270"></i>:<i className="fa-solid fa-caret-right"></i>}</button>   
                         <span>MODULO 3: DONAS FRITAS</span>                          
                 </div>
                 <div className={`despleCardContents ${isShow2 ? 'show' : ''}`}>
@@ -94,7 +94,7 @@ export const PensumSection = () => {
                     </div>
                 </div> 
                 <div className='despleCardQ'>
-                        <button onClick={handleShow3}>{isShow3?<i class="fa-solid fa-caret-right fa-rotate-270"></i>:<i class="fa-solid fa-caret-right"></i>}</button>   
+                        <button onClick={handleShow3}>{isShow3?<i className="fa-solid fa-caret-right fa-rotate-270"></i>:<i className="fa-solid fa-caret-right"></i>}</button>   
                         <span>MODULO 4: DONAS HORNEADAS</span>                          
                 </div>
                 <div className={`despleCardContents ${isShow3 ? 'show' : ''}`}>
@@ -125,7 +125,7 @@ export const PensumSection = () => {
                     </div>
                 </div> 
                 <div className='despleCardQ'>
-                        <button onClick={handleShow4}>{isShow4?<i class="fa-solid fa-caret-right fa-rotate-270"></i>:<i class="fa-solid fa-caret-right"></i>}</button>   
+                        <button onClick={handleShow4}>{isShow4?<i className="fa-solid fa-caret-right fa-rotate-270"></i>:<i className="fa-solid fa-caret-right"></i>}</button>   
                         <span>MÓDULO 5: MINI DONAS ELABORADAS EN MÁQUINA ELÉCTRICA</span>                          
                 </div>
                 <div className={`despleCardContents ${isShow4 ? 'show' : ''}`}>
@@ -158,7 +158,7 @@ export const PensumSection = () => {
                     </div>
                 </div> 
                 <div className='despleCardQ'>
-                        <button onClick={handleShow5}>{isShow5?<i class="fa-solid fa-caret-right fa-rotate-270"></i>:<i class="fa-solid fa-caret-right"></i>}</button>   
+                        <button onClick={handleShow5}>{isShow5?<i className="fa-solid fa-caret-right fa-rotate-270"></i>:<i className="fa-solid fa-caret-right"></i>}</button>   
                         <span>MÓDULO 6: CÓMO DECORAR DONAS Y MINI DONAS</span>                          
                 </div>
                 <div className={`despleCardContents ${isShow5 ? 'show' : ''}`}>
@@ -196,7 +196,7 @@ export const PensumSection = () => {
                 <span className='tittlePink'>Segunda parte:</span>
                 <span className='tittlePink'>Como emprender con exito desde casa</span>
                 <div className='despleCardQ'>
-                            <button onClick={handleShow6}>{isShow6?<i class="fa-solid fa-caret-right fa-rotate-270"></i>:<i class="fa-solid fa-caret-right"></i>}</button>   
+                            <button onClick={handleShow6}>{isShow6?<i className="fa-solid fa-caret-right fa-rotate-270"></i>:<i className="fa-solid fa-caret-right"></i>}</button>   
                             <span>MÓDULO 7: EMPRENDE DESDE CASA</span>                          
                 </div>
                 <div className={`despleCardContents ${isShow6 ? 'show' : ''}`}>
@@ -211,7 +211,7 @@ export const PensumSection = () => {
                         </div>
                 </div> 
                 <div className='despleCardQ'>
-                            <button onClick={handleShow7}>{isShow7?<i class="fa-solid fa-caret-right fa-rotate-270"></i>:<i class="fa-solid fa-caret-right"></i>}</button>   
+                            <button onClick={handleShow7}>{isShow7?<i className="fa-solid fa-caret-right fa-rotate-270"></i>:<i className="fa-solid fa-caret-right"></i>}</button>   
                             <span>MÓDULO 8: DISEÑA TUS MINI DONAS Y DESARROLLA TU MARCA</span>                          
                 </div>
                 <div className={`despleCardContents ${isShow7 ? 'show' : ''}`}>
@@ -224,7 +224,7 @@ export const PensumSection = () => {
                         </div>
                 </div> 
                 <div className='despleCardQ'>
-                            <button onClick={handleShow8}>{isShow8?<i class="fa-solid fa-caret-right fa-rotate-270"></i>:<i class="fa-solid fa-caret-right"></i>}</button>   
+                            <button onClick={handleShow8}>{isShow8?<i className="fa-solid fa-caret-right fa-rotate-270"></i>:<i className="fa-solid fa-caret-right"></i>}</button>   
                             <span>MÓDULO 9: PROVEEDORES, PRESENTACIÓN Y EMPAQUE</span>                          
                 </div>
                 <div className={`despleCardContents ${isShow8 ? 'show' : ''}`}>
@@ -237,7 +237,7 @@ export const PensumSection = () => {
                         </div>
                 </div> 
                 <div className='despleCardQ'>
-                            <button onClick={handleShow9}>{isShow9?<i class="fa-solid fa-caret-right fa-rotate-270"></i>:<i class="fa-solid fa-caret-right"></i>}</button>   
+                            <button onClick={handleShow9}>{isShow9?<i className="fa-solid fa-caret-right fa-rotate-270"></i>:<i className="fa-solid fa-caret-right"></i>}</button>   
                             <span>MÓDULO 10: ESTABLECE EL PRECIO DE VENTA</span>                          
                 </div>
                 <div className={`despleCardContents ${isShow9 ? 'show' : ''}`}>
@@ -250,7 +250,7 @@ export const PensumSection = () => {
                         </div>
                 </div> 
                 <div className='despleCardQ'>
-                            <button onClick={handleShow10}>{isShow10?<i class="fa-solid fa-caret-right fa-rotate-270"></i>:<i class="fa-solid fa-caret-right"></i>}</button>   
+                            <button onClick={handleShow10}>{isShow10?<i className="fa-solid fa-caret-right fa-rotate-270"></i>:<i className="fa-solid fa-caret-right"></i>}</button>   
                             <span>MÓDULO 11: ELABORA UN CATÁLOGO IRRESISTIBLE</span>                          
                 </div>
                 <div className={`despleCardContents ${isShow10 ? 'show' : ''}`}>
@@ -262,7 +262,7 @@ export const PensumSection = () => {
                         </div>
                 </div> 
                 <div className='despleCardQ'>
-                            <button onClick={handleShow11}>{isShow11?<i class="fa-solid fa-caret-right fa-rotate-270"></i>:<i class="fa-solid fa-caret-right"></i>}</button>   
+                            <button onClick={handleShow11}>{isShow11?<i className="fa-solid fa-caret-right fa-rotate-270"></i>:<i className="fa-solid fa-caret-right"></i>}</button>   
                             <span>MÓDULO 12: MARKETING Y PUBLICIDAD</span>                          
                 </div>
                 <div className={`despleCardContents ${isShow11 ? 'show' : ''}`}>
@@ -282,7 +282,7 @@ export const PensumSection = () => {
             <span className='tittlePink'>Ademas te regalo dos bonos especiales que te seran muy utiles si eres principiante...</span>
             <div className='bonoCard'>
                 <div className='despleCardQ'>
-                            <button onClick={handleShow12}>{isShow12?<i class="fa-solid fa-caret-right fa-rotate-270"></i>:<i class="fa-solid fa-caret-right"></i>}</button>   
+                            <button onClick={handleShow12}>{isShow12?<i className="fa-solid fa-caret-right fa-rotate-270"></i>:<i className="fa-solid fa-caret-right"></i>}</button>   
                             <span>BONO #1 DE REGALO: Como elegir la mejor maquina para ti.</span>                          
                 </div>
                 <div className={`despleCardContents ${isShow12 ? 'show' : ''}`}>
@@ -298,7 +298,7 @@ export const PensumSection = () => {
                         </div>
                 </div> 
                 <div className='despleCardQ'>
-                            <button onClick={handleShow13}>{isShow13?<i class="fa-solid fa-caret-right fa-rotate-270"></i>:<i class="fa-solid fa-caret-right"></i>}</button>   
+                            <button onClick={handleShow13}>{isShow13?<i className="fa-solid fa-caret-right fa-rotate-270"></i>:<i className="fa-solid fa-caret-right"></i>}</button>   
                             <span>BONO #2 DE REGALO: Calcula el precio de tus donitas facilmente.</span>                          
                 </div>
                 <div className={`despleCardContents ${isShow13 ? 'show' : ''}`}>

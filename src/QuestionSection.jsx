@@ -37,7 +37,7 @@ const QuestionSection = () => {
         <span className='bigTitleRed'>Preguntas Frecuentes</span>
        <div className='cardPensum'>
         <div className='despleCardQ'>
-            <button onClick={handleShow}>{isShow? <i class="fa-solid fa-caret-right fa-rotate-270"></i>:<i class="fa-solid fa-caret-right"></i>}</button>   
+            <button onClick={handleShow}>{isShow? <i className="fa-solid fa-caret-right fa-rotate-270"></i>:<i className="fa-solid fa-caret-right"></i>}</button>   
             <span>¿Es un curso en video?</span>                                     
           </div>
           <div className={`despleCardContents ${isShow ? 'show' : ''}`}>
@@ -48,7 +48,7 @@ const QuestionSection = () => {
        </div>
        <div className='cardPensum'>
         <div className='despleCardQ'>
-            <button onClick={handleShow1}>{isShow1? <i class="fa-solid fa-caret-right fa-rotate-270"></i>:<i class="fa-solid fa-caret-right"></i>}</button>   
+            <button onClick={handleShow1}>{isShow1? <i className="fa-solid fa-caret-right fa-rotate-270"></i>:<i className="fa-solid fa-caret-right"></i>}</button>   
             <span>¿Que necesito para leer los E-books?</span>                                     
           </div>
           <div className={`despleCardContents ${isShow1 ? 'show' : ''}`}>
@@ -59,7 +59,7 @@ const QuestionSection = () => {
        </div>
        <div className='cardPensum'>
         <div className='despleCardQ'>
-            <button onClick={handleShow2}>{isShow2? <i class="fa-solid fa-caret-right fa-rotate-270"></i>:<i class="fa-solid fa-caret-right"></i>}</button>   
+            <button onClick={handleShow2}>{isShow2? <i className="fa-solid fa-caret-right fa-rotate-270"></i>:<i className="fa-solid fa-caret-right"></i>}</button>   
             <span>¿Como voy a resolver mis dudas?</span>                                     
           </div>
           <div className={`despleCardContents ${isShow2 ? 'show' : ''}`}>
@@ -70,7 +70,7 @@ const QuestionSection = () => {
        </div>
        <div className='cardPensum'>
         <div className='despleCardQ'>
-            <button onClick={handleShow3}>{isShow3? <i class="fa-solid fa-caret-right fa-rotate-270"></i>:<i class="fa-solid fa-caret-right"></i>}</button>   
+            <button onClick={handleShow3}>{isShow3? <i className="fa-solid fa-caret-right fa-rotate-270"></i>:<i className="fa-solid fa-caret-right"></i>}</button>   
             <span>¿Como accedo al E-book?</span>                                     
           </div>
           <div className={`despleCardContents ${isShow3 ? 'show' : ''}`}>
@@ -81,7 +81,7 @@ const QuestionSection = () => {
        </div>
        <div className='cardPensum'>
         <div className='despleCardQ'>
-            <button onClick={handleShow4}>{isShow4? <i class="fa-solid fa-caret-right fa-rotate-270"></i>:<i class="fa-solid fa-caret-right"></i>}</button>   
+            <button onClick={handleShow4}>{isShow4? <i className="fa-solid fa-caret-right fa-rotate-270"></i>:<i className="fa-solid fa-caret-right"></i>}</button>   
             <span>¿Que ventajas tiene que sea libro digital?</span>                                     
           </div>
           <div className={`despleCardContents ${isShow4 ? 'show' : ''}`}>
@@ -96,7 +96,7 @@ const QuestionSection = () => {
        </div>
        <div className='cardPensum'>
         <div className='despleCardQ'>
-            <button onClick={handleShow5}>{isShow5? <i class="fa-solid fa-caret-right fa-rotate-270"></i>:<i class="fa-solid fa-caret-right"></i>}</button>   
+            <button onClick={handleShow5}>{isShow5? <i className="fa-solid fa-caret-right fa-rotate-270"></i>:<i className="fa-solid fa-caret-right"></i>}</button>   
             <span>¿Es seguro mi pago?</span>                                     
           </div>
           <div className={`despleCardContents ${isShow5 ? 'show' : ''}`}>
