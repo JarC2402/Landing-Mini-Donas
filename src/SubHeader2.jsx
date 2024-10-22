@@ -1,7 +1,7 @@
 import React from 'react'
 import imgHeader2 from './assets/img-header2.png'
 
-const SubHeader = () => {
+const SubHeader2 = () => {
   return (
     <div className='headerContainer2'>
         <div className='headerCard2'>
@@ -28,4 +28,4 @@ const SubHeader = () => {
   )
 }
 
-export default SubHeader
+export default SubHeader2

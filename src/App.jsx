@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { Nav } from './Nav'
 import Header from './Header'
-import SubHeader from './SubHeader';
 import { PensumSection } from './PensumSection'
 import Recipe from './Recipe'
 import Investment from './investment'
@@ -10,6 +9,7 @@ import QuestionSection from './QuestionSection'
 import VersionSection from './VersionSection'
 import Warranty from './Warranty'
 import Testi from './Testi'
+import SubHeader2 from './SubHeader2'
 
 // https://hotm.art/EmprendeconMinidonasOferta
 
@@ -29,7 +29,7 @@ function App() {
     <>
      <Nav/>
      <Header/>
-     <SubHeader />  
+     <SubHeader2/> 
      <PensumSection/>
      <Recipe/>
      <Investment/>
