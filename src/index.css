@@ -172,8 +172,7 @@ li {
 }
 /* ---------------------------------------------------------------------------------------- Pensum*/
 
-.pensumSection{
-  background-color: black;  
+.pensumSection{ 
   display: flex;
   flex-direction: column;
   align-items: center; 
