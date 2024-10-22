@@ -13,9 +13,11 @@ import FooterSection from './FooterSection'
 import Testi from './Testi'
 
 // https://hotm.art/EmprendeconMinidonasOferta
+
+
 /* Tareas por corregir:
-- corregir el alineamiento de background
-- la img de metodos de pago no esta nitida
+- textos  de recetario, contenido del curso vintinto del pesum
+- Header 2 los puntos de si te gustaria mas oscuros
 
 
 
@@ -37,7 +39,6 @@ function App() {
      <QuestionSection/>
      <VersionSection/>
      <Warranty/>
-     <FooterSection/>
      <Testi/>
     </>
   )

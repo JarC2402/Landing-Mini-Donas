@@ -177,7 +177,7 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center; 
-  background-image: url('./assets/backGround3.jpeg'); /* Ruta a la imagen */
+  background-image: url('./assets/Fondo3.jpeg'); /* Ruta a la imagen */
   background-size: cover; /* Hace que la imagen cubra todo el fondo */
   background-position: center; /* Centra la imagen */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -222,7 +222,7 @@ li {
 }
 
 button {
-  color: #a989e8;
+  color: #682219;
   background-color: white;
   box-shadow: none;
   margin-right: 5px;
@@ -241,6 +241,7 @@ ul li {
 
 .despleCardQ{
   background-color: white;
+  border: solid #682219;
   margin-top: 15px;
   color:  #682219 ;
   font-weight: bold;
@@ -276,13 +277,12 @@ ul li {
   margin: 20px;
 }
 /* ---------------------------------------------------------------------------------------- Recipe Section --------------*/
-.recipexCardContent{
-  background-color: white;
-
-}
 
 .recipexContent{
-  background-color: white;
+  background-image: url('./assets/Fondo4.jpeg'); /* Ruta a la imagen */
+  background-size: 100%; /* Hace que la imagen cubra todo el fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
   text-align: center;
   color: #242424;
   display: flex;
@@ -347,6 +347,10 @@ ul li {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  background-image: url('./assets/Fondo6.jpeg'); /* Ruta a la imagen */
+  background-size: 100%; /* Hace que la imagen cubra todo el fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
 
 .packCard{
@@ -425,16 +429,18 @@ background-repeat: no-repeat; /* Evita que la imagen se repita */
   color: white;
 }
 /* ----------------------------------------------------------------------------------------Question Section --------------*/
-
+.priceImg{
+  background-image: url('./assets/Fondo7.jpeg'); /* Ruta a la imagen */
+  background-size: 100%; /* Hace que la imagen cubra todo el fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
 .QuestionSection{
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  background-image: url('./assets/fondoPerfil.jpeg'); /* Ruta a la imagen */
-  background-size: cover; /* Hace que la imagen cubra todo el fondo */
-  background-position: center; /* Centra la imagen */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-color: white;
   padding: 30px;
 }
 
@@ -472,7 +478,7 @@ background-repeat: no-repeat; /* Evita que la imagen se repita */
 .versionSection{
   display: flex;
   justify-content: center;
-  background-image: url('./assets/fondoVersion.jpeg'); /* Ruta a la imagen */
+  background-image: url('./assets/Fondo9.jpeg'); /* Ruta a la imagen */
   background-size: cover; /* Hace que la imagen cubra todo el fondo */
   background-position: center; /* Centra la imagen */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
@@ -511,11 +517,22 @@ background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
 /* ----------------------------------------------------------------------------------------Version Section --------------*/
 
-.warrantySection, .footerSection{
+.warrantySection{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
   color: white;
   text-align: center;
+  background-image: url('./assets/10.jpeg'); /* Ruta a la imagen */
+  background-size: cover; /* Hace que la imagen cubra todo el fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+.footerSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .warrantyCard, .footerCard{
@@ -541,7 +558,7 @@ background-repeat: no-repeat; /* Evita que la imagen se repita */
  display: flex;
  flex-direction: column;
  align-items: center;
- background-color: #242424;
+ background-color: white;
  padding: 30px;
 }
 
@@ -559,6 +576,7 @@ background-repeat: no-repeat; /* Evita que la imagen se repita */
   justify-content: center;
   background-color: #a989e8;
 }
+
 /* Media Query para pantallas pequeñas ------ Media Query para pantallas pequeñas ----- Media Query para pantallas pequeñas ---- Media Query para pantallas pequeñas */  
 @media (max-width: 600px) {
 

@@ -39,7 +39,8 @@ const formatTime = (time) => {
             </span>
         </div>
     </div>
-    <div className='priceSection'>
+    <div className='priceImg'>
+        <div className='priceSection'>
         <div className='priceContent'>
             <div className='priceCard'>
                 <span className='tittlePink'>¡ Aprovecha esta oferta por tiempo limitado !</span>
@@ -70,6 +71,7 @@ const formatTime = (time) => {
                 <span className='tittlePink'>Descargarlo facilmente</span>
             </div>
         </div>
+    </div>
     </div>
     </div>
   )

@@ -23,8 +23,8 @@ const QuestionSection = () => {
   
   return (
     <div className='QuestionSection'>
-        <span className='tittleWhite'>¡No estaras sola!</span>
-        <span className='tittleWhite'>Preguntale a la experta:</span>
+        <span className='bigTitleRed'>¡No estaras sola!</span>
+        <span className='bigTitleRed'>Preguntale a la experta:</span>
         <div className='perfilSection'>
             <div className='perfilCard'>
                 <span className='text3'>Tu compra incluye asesoria de forma rapida y personalizada. Podras preguntarle todas tus dudas a la propia autora.</span><br/>
@@ -34,7 +34,7 @@ const QuestionSection = () => {
             </div>
             <img src={NancyRobles} alt="NancyRobles" />
         </div>
-        <span className='tittleWhite'>Preguntas Frecuentes</span>
+        <span className='bigTitleRed'>Preguntas Frecuentes</span>
        <div className='cardPensum'>
         <div className='despleCardQ'>
             <button onClick={handleShow}>{isShow? <i class="fa-solid fa-caret-right fa-rotate-270"></i>:<i class="fa-solid fa-caret-right"></i>}</button>   

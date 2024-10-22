@@ -12,16 +12,15 @@ import Carousel from 'react-bootstrap/Carousel';
 function UncontrolledExample() {
   return (
     <div className='carouselSection'>
-        <span className='tittleWhite'>Estos seran tus proximos resultados...</span>
-        <span className='tittleWhite'>Mis Alumnos ya lo estan logrando</span>
+        <span className='tittleRed'>Estos seran tus proximos resultados...</span>
+        <span className='tittleRed'>Mis Alumnos ya lo estan logrando</span>
         <div className='carouselContent'>
           <Carousel >           
             <Carousel.Item >
             <img src={test1} alt="test1" />
               <Carousel.Caption>          
               </Carousel.Caption>
-            </Carousel.Item>
-            
+            </Carousel.Item>      
 
             <Carousel.Item>
               <img src={test2} alt="test2" />
